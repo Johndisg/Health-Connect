@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Gabarito");
+.bg-gradient {
+    background-color: #D2D6DF;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Gabarito", sans-serif;
+    padding: 40px;
+}
+
+.boxedbux {
+    max-width: 510px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(60, 141, 188, 0.1);
+    border: 5px solid rgba(210, 214, 223, 0.5);
+    animation: blink 2s infinite alternate;    
+}
+
+@keyframes blink {
+    0% {
+        border-color: rgba(60, 141, 188, 0.5);
+        box-shadow: 0 0 20px rgba(60, 141, 188, 0.9);
+    }
+    100% {
+        border-color: rgb(210, 214, 223);
+        box-shadow: 0 0 70px rgba(210, 214, 223, 0.9);
+    }
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    background-color: rgba(210, 214, 223, 0.2);
+    border-color: rgb(146, 146, 146);
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.form-control::placeholder {
+    color: rgb(134, 134, 134);
+}
+
+.form-control:hover {
+    background-color: rgba(210, 214, 223, 0.5);
+    border-color: rgb(214, 214, 214);
+    color: #000000;
+    box-shadow: 0 0 40px rgba(60, 141, 188, 0.5);
+}
+
+.form-control:focus {
+    background-color: rgba(210, 214, 223, 0.5);
+    border-color: rgb(214, 214, 214);
+    color: #000000;
+    box-shadow: 0 0 40px rgba(60, 141, 188, 0.5);
+}
+
+.custom-buttons {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-color: transparent;
+    background: linear-gradient(to right, rgba(60, 141, 188, 0.9), rgba(210, 214, 223, 1));
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, rgba(60, 141, 188, 0.9), rgba(210, 214, 223, 1));
+    box-shadow: 0 0 40px rgba(60, 141, 188, 0.9);
+    border-color: transparent;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#container-login {
+    color: #000000;
+}
+
+.btn-link {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    color: rgb(60, 141, 188);
+    text-decoration: none;
+    text-shadow: 0 0 40px rgba(210, 214, 223, 1.5);
+}
+
+footer {
+    background-color: rgb(194, 197, 206);
+    color: rgb(82, 82, 82);
+    border-top: 2px solid rgba(82, 82, 82, 0.8);
+    text-align: center;
+    position: fixed;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-top: 15px;
+}
